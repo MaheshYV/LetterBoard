@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+sourceCompatibility = 1.8
+
+dependencies {
+    implementation 'com.github.deem-team:test-fixture-jvm:0.0.1'
+    testImplementation 'junit:junit:4.13'
+}
